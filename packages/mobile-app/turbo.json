@@ -1,0 +1,7 @@
+{
+  "extends": ["//"],
+  "pipeline": {
+    "format": { "cache": false },
+    "type-check": { "cache": false }
+  }
+}
