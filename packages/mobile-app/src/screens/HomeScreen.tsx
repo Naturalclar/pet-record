@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Flex } from "@/components/Utils";
+import { Flex } from "react-native-sketchbook";
 import { useQuery } from "@tanstack/react-query";
 import * as api from "@/apis";
 import { LoadingScreen } from "@/components/Templates/LoadingScreen";

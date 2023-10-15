@@ -1,9 +1,8 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import * as React from "react";
 import { Colors } from "@/theme/Colors";
-import { HomeTopTab } from "./HomeTopTab";
 import { useHeaderRight } from "./MainRouter";
-import { ArticleDetailScreen } from "@/screens/ArticleDetailScreen";
+import { HomeScreen } from "@/screens/HomeScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -20,7 +19,7 @@ export const HomeRouter = () => {
         headerRight,
       }}
     >
-      <Stack.Screen name="Home" component={HomeTopTab} />
+      <Stack.Screen name="Home" component={HomeScreen} />
     </Stack.Navigator>
   );
 };

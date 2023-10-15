@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Text, StyleSheet } from "react-native";
-import { Flex } from "@/components/Utils";
+import { Flex } from "react-native-sketchbook";
 
 /**
  * Screen used for Search

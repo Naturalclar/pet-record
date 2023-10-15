@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StyleSheet } from "react-native";
-import { Flex } from "@/components/Utils";
+import { Flex } from "react-native-sketchbook";
 import { KeyboardScreen } from "@/components/Templates/KeyboardScreen";
 import { Typography } from "@/components/Typography";
 import { Input } from "@/components/Forms/Input";

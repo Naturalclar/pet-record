@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StyleSheet } from "react-native";
-import { Flex } from "@/components/Utils";
+import { Flex } from "react-native-sketchbook";
 import { List } from "@/components/Lists/List";
 import { LoadingScreen } from "@/components/Templates/LoadingScreen";
 import * as api from "@/apis";
