@@ -12,7 +12,7 @@ import {
   InfoButton,
 } from "@/components/Buttons";
 import { noop } from "@/utils/noop";
-import { Flex, Row } from "@/components/Utils";
+import { Flex, Row } from 'react-native-sketchbook';
 import { LinkText } from "@/components/Typography/LinkText";
 import { TopLogo } from "@/components/Logos";
 import { useNavigation } from "@react-navigation/native";

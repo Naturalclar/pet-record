@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Image, StyleSheet } from "react-native";
-import { Row, Flex, PressableOpacity } from "@/components/Utils";
+import { PressableOpacity } from "@/components/Utils";
+import { Row, Flex } from "react-native-sketchbook";
 import { Article } from "@/types";
 import { Typography } from "../Typography";
 

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ActivityIndicator } from "react-native";
-import { Flex } from "../Utils";
+import { Flex } from "react-native-sketchbook";
 import { Colors } from "@/theme/Colors";
 
 /**
